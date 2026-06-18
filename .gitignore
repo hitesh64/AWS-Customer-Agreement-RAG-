@@ -1,16 +1,6 @@
 # Environment variables
 .env
 
-# Python cache
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-venv/
-env/
-.venv/
-
 # Database and Vector store
-data/query_logs.db
-vectorstore/
+# data/query_logs.db
+# vectorstore/
