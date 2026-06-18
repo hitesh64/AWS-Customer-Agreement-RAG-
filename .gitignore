@@ -1,9 +1,16 @@
+# Environment variables
 .env
-venv/
+
+# Python cache
 __pycache__/
-*.pyc
-.pytest_cache/
-.DS_Store
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Database and Vector store
 data/query_logs.db
 vectorstore/
-*.db
